@@ -1,138 +1,173 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style/style.css">
-    <title>Ducky</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Hello, world!</title>
 </head>
 
-<body class="bg">
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#"><img src="image/logo2.png"></a></li>
-                <li><a href="#">機械式鍵盤</a></li>
-                <li><a href="#">鍵帽</a></li>
-                <li><a href="#">滑鼠</a></li>
-                <li><a href="#">周邊產品</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="main_img">
-        <p>
-            Ducky<br>
-            <span>將會使你刻骨銘心</span>
-        </p>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="image/logo2.png" alt="Ducky" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto nav-fill w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="#">機械式鍵盤</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">鍵帽</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">滑鼠</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">周邊產品</a>
+        </li>
+      </ul>
     </div>
-
-    <div class="main">
-        <div class="main_1">
-            <div>
-                <div class="main_1_long gray1">
-                    <img src="image/ONE2_BLACK.png">
-                    <br>
-                    <p class="product-title">
-                        <a href="#">ONE 2 魅影黑</a>
-                        <br>
-                        <span class="product-descrp">
-                            一把適合所有人的鍵盤
-                        </span>
-                    </p>
-                </div>
-                <div class="main_1_short_xmas gray1">
-                    <p class="product-title xmas">
-                        <a href="#">Shine 7 聖誕版</a>
-                        <br>
-                        <span class="product-descrp">
-                            精準典範
-                        </span>
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div class="main_1_short_pig gray1">
-                    <p class="product-title pig">
-                        <a href="#">豬年生肖限定版鍵盤</a>
-                        <br>
-                        <span class="product-descrp">
-                            2019限定版
-                        </span>
-                    </p>
-                </div>
-                <div class="main_1_long gray1">
-                    <img src="image/ONE2_MINI.png" style="width: 444px">
-                    <br>
-                    <p class="product-title">
-                        <a href="#">ONE 2 Mini 白色版</a>
-                        <br>
-                        <span class="product-descrp">
-                            專業的電競小尺寸鍵盤
-                        </span>
-                    </p>
-                </div>
-            </div>
+  </nav>
+  <section id="intro">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="intro-text">
+          <h1 class="display-4">Ducky</h1>
+          <p class="lead">將會使你刻骨銘心</p>
         </div>
-
-        <div class="main_2 gray2">
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="product">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 align-self-center justify-content-center text-center">
+          <div class="product-item">
+            <img src="image/ONE2_BLACK.png">
+            <div class="product-title">
+              <a href="#">ONE 2 魅影黑</a>
+              <br>
+              <span class="product-descrp">
+                一把適合所有人的鍵盤
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center justify-content-center text-center">
+          <div class="product-item">
+            <img src="image/SHINE7_XMAS.png">
+            <div class="product-title">
+              <a href="#">Shine 7 聖誕版</a>
+              <br>
+              <span class="product-descrp">
+                精準典範
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 align-self-center justify-content-center text-center">
+          <div class="product-item">
+            <img src="image/ONE2_PIG.png">
+            <div>
+              <div class="product-title">
+                <a href="#">豬年生肖限定版鍵盤</a>
+                <br>
+                <span class="product-descrp">
+                  2019限定版
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center justify-content-center text-center">
+          <div class="product-item">
+            <img src="image/ONE2_MINI.png">
+            <div>
+              <div class="product-title">
+                <a href="#">ONE 2 Mini 白色版</a>
+                <br>
+                <span class="product-descrp">
+                  專業的電競小尺寸鍵盤
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-12 align-self-center justify-content-center text-center">
+          <div class="product-item">
             <img src="image/SHINE7.png">
-            <br>
-                    <p class="product-title white_font">
-                        <a href="#">Shine 7</a>
-                        <br>
-                        <span class="product-descrp">
-                            精準典範
-                        </span>
-                    </p>
-        </div>
-
-        <div class="main_3">
-            <div class="main_3_short_RGB gray1">
-                <p class="product-title RGB">
-                    <a href="#">ONE RGB</a>
-                    <br>
-                    <span class="product-descrp">
-                        Ducky第一把薄邊框鍵盤
-                    </span>
-                </p>
+            <div>
+              <div class="product-title">
+                <a href="#">Shine 7</a>
+                <br>
+                <span class="product-descrp">
+                  精準典範
+                </span>
+              </div>
             </div>
-            <div class="main_3_short_ZERO gray1">
-                <p class="product-title ZERO">
-                    <a href="#">Zero 3108 PBT 藍燈版</a>
-                    <br>
-                    <span class="product-descrp">
-                        一切始於零
-                    </span>
-                </p>
-            </div>
+          </div>
         </div>
-
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 align-self-center justify-content-center text-center">
+          <div class="product-item">
+            <img src="image/ONE_RGB.png">
+            <div>
+              <div class="product-title">
+                <a href="#">ONE RGB</a>
+                <br>
+                <span class="product-descrp">
+                  Ducky第一把薄邊框鍵盤
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center justify-content-center text-center">
+          <div class="product-item">
+            <img src="image/ZERO3108.png">
+            <div>
+              <div class="product-title">
+                <a href="#">Zero 3108 PBT 藍燈版</a>
+                <br>
+                <span class="product-descrp">
+                  一切始於零
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
-    <hr>
-
-    <footer>
-        <nav>
-            <div class="footer_nav">
-                <div class="follow_us">
-                    追蹤我們
-                </div>
-
-                <div class="footer_line2">
-                    <div class="logo2">
-                        <a href="#"><img src="image/logo2.png"></a>
-                    </div>
-                    <div class="social">
-                        <a href="#"><img src="image/icon_facebook.png"></a>
-                        <a href="#"><img src="image/icon_instagram.png"></a>
-                        <a href="#"><img src="image/icon_twitter.png"></a>
-                        <a href="#"><img src="image/icon_reddit.png"></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </footer>
+  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
